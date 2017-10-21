@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+
+:root {
+  --colors-bg-main: rgb(40,40,40);
+  --fonts-mono: 'Inconsolata', monospace;
+  --fonts-sans: 'Noto Sans', sans-serif;
+}
+
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--colors-bg-main);
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+div {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48pt;
+}
