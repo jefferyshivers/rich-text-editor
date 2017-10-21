@@ -1,0 +1,10 @@
+.Note {
+  position: relative;
+  float: left;
+  height: 100%;
+  width: calc(100% - 300px);
+  display: flex;
+  color: green;
+  justify-content: center;
+  align-items: center;
+}
